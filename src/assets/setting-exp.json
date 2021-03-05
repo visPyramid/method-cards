@@ -1,0 +1,220 @@
+[
+    {
+        "cname": "介绍可视化",
+        "name": "setting-pattern1",
+        "explanation": "在使用的可视化较为复杂（例如：气泡图）时，介绍可视化能让观众熟悉可视化，使观众更容易理解之后要讲的发现。",
+        "dataFlows": [
+            {
+                "cname": "介绍数据变量",
+                "name": "setting-pattern1-data-flow1",
+                "explanation": "如果故事使用了较为复杂的可视化，解释可视化中每个设计元素（坐标轴、颜色、大小等）所展示的数据变量是什么，能让观众熟悉和理解可视化，也就能更好地理解数据故事。",
+                "case": "该视频使用了气泡图来讲故事，涉及到了5个数据变量，在视频的开头演讲者分别解释了气泡图中的横轴、纵轴、气泡、气泡颜色、和气泡大小的含义。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "data-attributes-1",
+                        "imageExplanation": "（a）纵轴展示人均寿命"
+                    },
+                    {
+                        "imagePosition": "data-attributes-2",
+                        "imageExplanation": "（b）横轴展示人均收入"
+                    },
+                    {
+                        "imagePosition": "data-attributes-3",
+                        "imageExplanation": "（c）每个气泡是一个国家，颜色代表了地区"
+                    },
+                    {
+                        "imagePosition": "data-attributes-4",
+                        "imageExplanation": "（d）气泡大小代表了人口数量"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "可视化生成动画",
+                "name": "setting-pattern1-visual1",
+                "how": "让可视化的各个部分（横、纵坐标轴、数据点）逐个出现并逐个解释它们的意思。",
+                "why": "逐个解释能引导观众的注意力，并减少观众每次要理解的信息量",
+                "case": "该视频使用了气泡图来讲故事，涉及到了5个数据变量，在视频的开头演讲者分别解释了气泡图中的横轴，纵轴，气泡，气泡颜色，和气泡大小的含义。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "build-up"
+            }
+        ]
+    },
+    {
+        "cname": "数据“钩子” ",
+        "name": "setting-pattern2",
+        "explanation": "在故事开头使用有趣的、出人意料的数据事实来引起人们注意。",
+        "dataFlows": [
+            {
+                "cname": "异常或者显著的数据",
+                "name": "setting-pattern2-data-flow1",
+                "explanation": "通过讲述数据中的发现的问题，或者是总结性的数据值，例如总和、平均值等来引出主题并反映主题的重要性。",
+                "case": "该视频讨论的是美国的逃税问题，在视频开头先给出了美国每年的平均税收量，以强调税收对于美国的重要性。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "hook-1",
+                        "imageExplanation": "（a）美国每年税收近3万亿"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "计数器",
+                "name": "setting-pattern2-visual1",
+                "how": "展示数字从小增加一直到指定值。",
+                "why": "引起观众好奇心和期待感。",
+                "case": "该视频讨论的是美国的逃税问题，在视频开头先给出了美国每年的平均税收量，以强调税收对于美国的重要性。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "counting"
+            },
+            {
+                "cname": "简单图表和强调重点",
+                "name": "setting-pattern2-visual2",
+                "how": "用常见的图表（条形图、折线图等）展示数据发现，并用高亮，箭头等强调发现。",
+                "why": "常见的图表观众比较熟悉，不需要额外的时间解释。强调重点能够引导观众的注意力。",
+                "case": "该视频讨论的是美国的人口投票率，数据显示美国的投票率在所有发达国家中排名倒数（红色的bar），反映美国投票率不足的问题，引出主题是对美国投票率的分析。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "simple-chart"
+            }
+        ]
+    },
+    {
+        "cname": "预告",
+        "name": "setting-pattern3",
+        "explanation": "预告要讲述的故事内容，但不揭露细节，以增加读者的好奇心。",
+        "dataFlows": [
+            {
+                "cname": "随时间改变的数据",
+                "name": "setting-pattern3-data-flow1",
+                "explanation": "预告常用于预告数据随时间的变化。",
+                "case": "视频在开头展示了中国在1978-2017年对外贸易总额的排名的变化，在发展-高潮中则对重要时间点和事件进行了详细描述。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "foreshadowing",
+                        "imageExplanation": "（a）中国对外贸易总额的排名变化"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "快进到可视化的最终状态",
+                "name": "setting-pattern3-visual1",
+                "how": "快速播放视频之后要展示的可视化动画来预告数据发现。",
+                "why": "让读者快速感受到数据的变化，但不揭露细节，来增加读者的好奇心。",
+                "case": "视频描述了世界城市的人口排名变化，开头则快速播放了排名图表从1565到2018年的变化。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "fastforward2"
+            }
+        ]
+    },
+    {
+        "cname": "提问",
+        "name": "setting-pattern4",
+        "explanation": "在故事开头抛出问题，引起观众的思考。",
+        "dataFlows": [
+            {
+                "cname": "围绕高潮点的数据事实提问",
+                "name": "setting-pattern4-data-flow1",
+                "explanation": "提问应该与故事的主题息息相关，紧扣高潮点要表达的数据发现。",
+                "case": "该视频讲述了近年来印度政府对印度女性受性侵案件的处理。高潮点的数据发现是上报的性侵案件的立案率从08年到16年一直保持较低的水平（4%） ，反映了印度女性的安全问题。视频开头抛出了问题-“印度对于女性有变得更加安全吗？”，引出对数据的分析。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "question-1",
+                        "imageExplanation": "（a）（开头）印度对于女性有变得更加安全吗？"
+                    },
+                    {
+                        "imagePosition": "question-2",
+                        "imageExplanation": "（a）（高潮）08年至16年，印度女性受性侵案件的立案率一直保持较低水平（4%）"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "全屏文字",
+                "name": "setting-pattern4-visual1",
+                "how": "全屏只展示问题文字。",
+                "why": "强调问题的重要性，吸引读者的注意力。",
+                "case": "该视频讲述了近年来印度政府对印度女性受性侵案件的处理。高潮点的数据发现是上报的性侵案件的立案率从08年到16年一直保持较低的水平（4%），反映了印度女性的安全问题。视频开头抛出了问题-“印度对于女性有变得更加安全吗？”，引出对数据的分析。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "big-text"
+            }
+        ]
+    },
+    {
+        "cname": "介绍主题背景",
+        "name": "setting-pattern5",
+        "explanation": "介绍要探讨的主题是在什么背景下产生的，背景可以分为历史背景、地理背景、人物背景和事件背景。",
+        "dataFlows": [
+            {
+                "cname": "介绍数据语境",
+                "name": "setting-pattern4-data-flow1",
+                "explanation": "介绍数据对应的时间，地点，人物，或事件背景。",
+                "case": "该视频讲述了近年来印度政府对印度女性受性侵案件的处理的数据。视频的开头描述了印度女性（地点、人物）面临的安全问题（事件）。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "context-1",
+                        "imageExplanation": "（a）对于女性而言，在印度生活可能是一件很危险的事情…"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "背景相关的图标，动画与历史素材",
+                "name": "setting-pattern5-visual1",
+                "how": "用相关的图标，动画，历史素材（新闻画面，照片，档案）等介绍背景信息。",
+                "why": "生动形象的展示背景信息。",
+                "case": "该视频讲述了近年来印度政府对印度女性受性侵案件的处理的数据，视频在开头介绍主题（印度女性安全问题）时，使用了过去印度女性因为争取平等权益进行游行的画面。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "background"
+            }
+        ]
+    },
+    {
+        "cname": "从具体人物出发",
+        "name": "setting-pattern6",
+        "explanation": "以一个具体人物的故事作为要探讨的主题的切入点。",
+        "dataFlows": [
+            {
+                "cname": "介绍数据背后的个体故事",
+                "name": "setting-pattern6-data-flow1",
+                "explanation": "找到数据中所包含的人物，或者是会受到数据影响的人物，将这些人物的故事作为开头进行讲述。",
+                "case": "该故事讲述的是奥林匹克100米自由泳纪录随时间的变化，每个纪录都来自于一个运动员，故事以内森·阿德里安在2012年奥林匹克的一百米自由泳竞赛中获得了冠军为开头。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "character-1",
+                        "imageExplanation": "（a）内森·阿德里安是12年奥林匹克百米自由泳的冠军"
+                    },
+                    {
+                        "imagePosition": "character-2",
+                        "imageExplanation": "（b）将所有冠军的数据排列就得到了世界纪录数据的变化"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "人物剪影",
+                "name": "setting-pattern6-visual1",
+                "how": "展示相关人物的照片剪影。",
+                "why": "具体的人物能引起观众的共鸣，拉近观众与故事的距离。",
+                "case": "该故事讲述的是奥林匹克100米自由泳纪录随时间的变化，每个纪录都来自于一个运动员，故事以内森·阿德里安在2012年奥林匹克的一百米自由泳竞赛中获得了冠军为开头。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "cut-out-people"
+            },
+            {
+                "cname": "卡通动画",
+                "name": "setting-pattern6-visual2",
+                "how": "使用动画展示人物故事。",
+                "why": "具体的人物能引起观众的共鸣，拉近观众与故事的距离。",
+                "case": "该故事讲述的是美国的债务数据，故事以特朗普即将上任为开头，描述特朗普将面临的债务问题，进而开始分析美国的债务数据。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "cartoon-people"
+            }
+        ]
+    }
+]

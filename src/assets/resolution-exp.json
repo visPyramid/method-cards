@@ -1,0 +1,144 @@
+[
+    {
+        "cname": "回顾",
+        "name": "resolution-pattern1",
+        "explanation": "对主要观点进行回顾，强调重点，增强观众的记忆。",
+        "dataFlows": [
+            {
+                "cname": "重要数据发现",
+                "name": "resolution-pattern1-data-flow1",
+                "explanation": "回顾（发展-高潮）阶段中关键情节处展示的数据发现，这些数据发现对推动故事的发展、获得结论有不可或缺的作用。",
+                "case": "该视频讲述了加拿大的财富分配情况。故事中主要对比了人们理想的数据，和真实的分布数据。横轴从左到右代表加拿大从最穷到最富的人群（每10%的人为一组），纵轴表示了他们的财富的数值。在结局时视频重新将两个图放在了一起回顾了发现。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "recap-1",
+                        "imageExplanation": "（a）（发展-高潮）理想的加拿大财富分布"
+                    },
+                    {
+                        "imagePosition": "recap-2",
+                        "imageExplanation": "（b）（发展-高潮）真实的加拿大财富分布"
+                    },
+                    {
+                        "imagePosition": "recap-3",
+                        "imageExplanation": "（c）（结局）回顾图表"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "排列展示所有图表",
+                "name": "resolution-pattern1-visual1",
+                "how": "将先前展示的可视化重新排列展示。",
+                "why": "帮助回顾重点信息。",
+                "case": "该视频讲述了加拿大的财富分配情况。故事中分布展示了人们理想的数据（左），和真实的分布数据（右）。横轴从左到右代表加拿大从最穷到最富的人群（每10%的人为一组），纵轴表示了他们的财富的数值。在结局时视频重新将两个图放在了一起。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "resolution-jux"
+            },
+            {
+                "cname": "快速重放动画",
+                "name": "resolution-pattern1-visual2",
+                "how": "快速回放可视化动画，常用在展示可视化随时间变化的视频中。",
+                "why": "直观展示变化趋势。",
+                "case": "视频讲述了各国的收入（横轴）和人均寿命（纵轴）随时间变化的情况。在结局快速重放了一遍变化过程，展示总体向上的趋势。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "replay"
+            },
+            {
+                "cname": "新的总结性图表",
+                "name": "resolution-pattern1-visual3",
+                "how": "用一个总结性的图表展示之前讲到的数据。",
+                "why": "清晰的总结信息。",
+                "case": "视频讲述了世界人口的变化，在（发展-高潮）阶段是用可视化展示每个大洲的人数变化（条形图随时间变化）。结局处用面积展示总人口随时间变化。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "summary"
+            }
+        ]
+    },
+    {
+        "cname": "预测未来",
+        "name": "resolution-pattern2",
+        "explanation": "在结局预测未来可能的情况，用于展示对未来的期望，或者揭露存在的隐患，引发观众对将来的思考。",
+        "dataFlows": [
+            {
+                "cname": "预测的数据变化",
+                "name": "resolution-pattern2-data-flow1",
+                "explanation": "预测的数据随时间变化的趋势。",
+                "case": "视频讲述了世界人口的变化，在结局预测了2100年的人口将达到一千亿，引起大家思考如何应对人口爆炸问题。",
+                "imageGroup": [
+                    {
+                        "imagePosition": "predict-1",
+                        "imageExplanation": "（a）（高潮）到2011年，人口数已达到了70亿"
+                    },
+                    {
+                        "imagePosition": "predict-2",
+                        "imageExplanation": "（b）（结局）经预测到2100年，人口将达到100亿"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "新增图表数据",
+                "name": "resolution-pattern2-visual1",
+                "how": "展示加入预测的数据后可视化的样子。",
+                "why": "直观展示预测结果并与当前和过去的数据对比。",
+                "case": "视频讲述了世界人口的变化，在结局预测了全球人口在2100年达到一百亿，引起大家思考如何应对人口爆炸问题。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "predict"
+            }
+        ]
+    },
+    {
+        "cname": "呼应开头",
+        "name": "resolution-pattern3",
+        "explanation": "在结局回应开头，可以是强调开头的主题、回答开头探讨的问题、和进一步升华开头的主题。其对应的数据内容取决于开头的数据内容。",
+        "dataFlows": [],
+        "visuals": [
+            {
+                "cname": "重用开头元素",
+                "name": "resolution-pattern3-visual1",
+                "how": "结局和开头使用相似的视觉元素。",
+                "why": "利于强调主题和增加故事的结构性。",
+                "case": "该视频讲述了近年来印度政府对印度女性受性侵案件的处理。结局和开头都使用了女人的形象相互呼应，强调主题。",
+                "url": "reuse",
+                "gifPosition": "reuse"
+            }
+        ]
+    },
+    {
+        "cname": "呼吁行动",
+        "name": "resolution-pattern4",
+        "explanation": "对数据中发现的问题，呼吁大家更多地注意问题，鼓励行动。该项不再是描述数据的内容，而是根据创作者对于问题的理解，和相关的知识提出可能的行动。",
+        "dataFlows": [],
+        "visuals": [
+            {
+                "cname": "列举方案",
+                "name": "resolution-pattern4-visual1",
+                "how": "用文字列出对于从数据中发现到的问题的解决方案，常用于有多个解决方案的情况。",
+                "why": "直观清晰。",
+                "case": "该视频讲述了企业的网络安全问题，在视频结局列举了不同的解决方案，和有多少的企业已经在使用这些方案。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "list-solution"
+            },
+            {
+                "cname": "展示标语",
+                "name": "resolution-pattern4-visual2",
+                "how": "展示标语/口号呼吁大家行动。",
+                "why": "大的标语有强调作用，能吸引观众的视线。",
+                "case": "该视频讲述了英国政府在阿富汗战争中的损失，在结局用反战的标语呼吁大家参与反战的行动。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "slogan"
+            },
+            {
+                "cname": "展示理想图表",
+                "name": "resolution-pattern4-visual3",
+                "how": "展示假设措施成功后数据的改变和相应的可视化改变。",
+                "why": "直观展示措施能带来的影响。",
+                "case": "该视频讲述了美国人均GDP的增速缓慢，白线为当前数据，红色虚线为理想的数据。",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "ideal"
+            }
+        ]
+    }
+]
