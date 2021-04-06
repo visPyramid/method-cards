@@ -1,45 +1,46 @@
 <template>
   <v-container class="visualcards">
-    <v-row class="sm-12 mb-4 lg-4">
-      <v-col cols="4" v-for="visual in visuals" :key="visual.cname">
+    <v-row>
+      <v-col cols="12" xs="12" sm="6" md="4" lg="4" xl="2" v-for="visual in visuals" :key="visual.cname">
         <div :class="'flip-card-container '+visual.name">
           <div class="card-inner" :id="'card-inner-'+visual.name">
-            <v-card class="card-front d-flex flex-column" max-width="374" height="460">
-              <v-card-title class="justify-center primary" style="font-size:1.1rem;">{{visual.cname}}</v-card-title>
+            <v-card class="card-front d-flex flex-column" height="460">
+              <!--  d-flex flex-column -->
+              <v-card-title :class="episode + ' justify-center card-title-text'">{{visual.cname}}</v-card-title>
               <v-img
-                max-height="150"
                 height="150"
+                max-height="150"
                 :src='"../assets/gif/"+ visual.gifPosition + ".gif"'
               ></v-img>
-              <v-divider class="mx-2"></v-divider>
+              <v-divider class="mx-2 mt-3"></v-divider>
               <v-card-text>
-                <div  height="30" class="my-1 subtitle-1 primary--text" style="font-weight:bold">形式</div>
-                <div>
+                <div  height="20" :class="'my-1 '+ episode + '--text'" style="font-weight:bold">What</div>
+                <div class="card-exp-text">
                   {{visual.how}}
                 </div>
-                <div class="my-1 subtitle-1 primary--text" style="font-weight:bold">好处</div>
-                <div>
+                <div :class="'my-1 '+ episode + '--text'" style="font-weight:bold">Why</div>
+                <div class="card-exp-text">
                   {{visual.why}}
                 </div>
               </v-card-text>
               <v-spacer></v-spacer>
               <v-card-actions class="justify-center">
-                <v-btn style="width:22vw" class="grey lighten-2 grey--text" text @click="btnClick(visual.name,'front')">
-                  查看故事
+                <v-btn :class="episode+'VisualCardBtn visualCardBtn'" text @click="btnClick(visual.name,'front')">
+                  View the case
                 </v-btn>
               </v-card-actions>
             </v-card>
             <v-card class="card-back d-flex flex-column" max-width="374">
-              <v-card-title  class="justify-center primary" style="font-size:1.1rem;">{{ visual.cname }}</v-card-title>
+              <v-card-title  :class="episode + ' justify-center card-title-text'">{{ visual.cname }}</v-card-title>
               <v-img
                 height="150"
                 max-height="150"
                 :src='"../assets/gif/"+ visual.gifPosition + ".gif"'
               ></v-img>
-              <v-divider class="mx-2"></v-divider>
+              <v-divider class="mx-2 mt-3"></v-divider>
               <v-card-text>
-                <div class="my-1 subtitle-1 primary--text">故事简介</div>
-                <div style="font-size:0.78rem">
+                <div :class="'my-1 '+ episode + '--text'" style="font-weight:bold">Story case</div>
+                <div class="card-exp-text">
                   {{visual.case}}
                 </div>
                 <!-- <div class="my-1 subtitle-1">来源</div>
@@ -49,8 +50,8 @@
               </v-card-text>
               <v-spacer></v-spacer>
               <v-card-actions class="justify-center">
-                <v-btn style="width:22vw" class="grey lighten-2 grey--text" text @click="btnClick(visual.name,'back')">
-                  查看定义
+                <v-btn :class="episode+'VisualCardBtn visualCardBtn'" text @click="btnClick(visual.name,'back')">
+                  Go back to front
                 </v-btn>
               </v-card-actions>
             </v-card>
@@ -65,6 +66,7 @@
 export default {
   props: {
     visuals: Array,
+    episode:String
   },
   methods:{
     btnClick: function(btnName,cardDirection){
@@ -85,6 +87,15 @@ export default {
   position: absolute;
   bottom: 0;
 } */
+.settingVisualCardBtn{
+  background-color:rgba(243, 223, 125,0.3);
+}
+.risingVisualCardBtn{
+  background-color: rgb(247, 162, 161,0.3);
+}
+.resolutionVisualCardBtn{
+  background-color: rgb(126, 207, 212,0.3);
+}
 .card-inner {
   position: relative;
 }
@@ -114,5 +125,19 @@ export default {
   top: 0; right: 0; bottom: 0; left: 0;
   transform: rotateY(180deg);
 }
-
+.card-title-text{
+  font-size:0.9rem;
+}
+.card-exp-text{
+  font-size:0.7rem;
+  line-height: 1rem;
+  color:black;
+}
+.visualCardBtn{
+  font-size:0.7rem !important;
+  width: 97%;
+  text-transform: none !important;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
 </style>

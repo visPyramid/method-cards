@@ -1,41 +1,5 @@
 <template>
   <v-app class theme--yellow>
-    <!-- <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar> -->
     <NavBar/>
     <v-main class="mx-5">
       <router-view></router-view>
@@ -56,3 +20,26 @@ export default {
   }),
 };
 </script>
+
+<style>
+/* .v-application--wrap{
+  background-image: url("./assets/image/mem-background1.png");
+  background-repeat:repeat;
+  background-color:#F4F7F6
+} */
+.v-application--wrap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    /* background-color: rgba(0,0,0,0.25); */
+    /* background-image: url("./assets/image/mem-background1.png"); */
+    /* background-repeat:repeat; */
+    /* background-color: #FDF8F4; */
+    /* opacity: 0.5; */
+    /* background-color:rgba(251, 240, 232, 0.5) !important ; */
+}
+</style>

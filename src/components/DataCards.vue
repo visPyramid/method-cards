@@ -3,14 +3,14 @@
     <v-row>
       <v-col cols="12" v-for="dataFlow in dataFlows" :key="dataFlow.name">
         <v-card>
-          <v-card-title class="justify-center primary" style="font-size:1.1rem;">{{ dataFlow.cname }}</v-card-title>
+          <v-card-title :class="episode + ' justify-center card-title-text'">{{ dataFlow.cname }}</v-card-title>
           <v-card-text>
-            <div class="my-1 subtitle-1 primary--text" style="font-weight:bold">定义</div>
-            <div>
+            <div :class="'my-1 '+ episode + '--text'" style="font-weight:bold">Definition</div>
+            <div class="card-exp-text">
               {{ dataFlow.explanation }}
             </div>
-            <div class="my-1 subtitle-1 primary--text" style="font-weight:bold">故事案例</div>
-            <div>
+            <div :class="'my-1 '+ episode + '--text'" style="font-weight:bold">Story Case</div>
+            <div class="card-exp-text">
               {{ dataFlow.case }}
             </div>
           </v-card-text>
@@ -36,7 +36,7 @@
                   >
                   </v-img>
                   <v-card-text>
-                    <div style="font-size: 0.65rem; height:20px; line-height:1rem!important">
+                    <div style="font-size: 0.65rem; height:35px; line-height:1rem!important">
                       {{flowImage.imageExplanation}}
                     </div>
                   </v-card-text>
@@ -54,6 +54,16 @@
 export default {
   props: {
     dataFlows: Array,
+    episode:String
   }
 };
 </script>
+<style>
+.card-title-text{
+  font-size:0.9rem;
+}
+.card-exp-text{
+  font-size:0.7rem;
+  line-height: 1rem;
+}
+</style>

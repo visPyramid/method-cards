@@ -1,26 +1,26 @@
 [
     {
-        "cname": "回顾",
+        "cname": "Recap",
         "name": "resolution-pattern1",
-        "explanation": "对主要观点进行回顾，强调重点，增强观众的记忆。",
+        "explanation": "Recap helps renew the audiences' memory on the main messages in the story.",
         "dataFlows": [
             {
-                "cname": "重要数据发现",
+                "cname": "Facts to be emphasized",
                 "name": "resolution-pattern1-data-flow1",
-                "explanation": "回顾（发展-高潮）阶段中关键情节处展示的数据发现，这些数据发现对推动故事的发展、获得结论有不可或缺的作用。",
-                "case": "该视频讲述了加拿大的财富分配情况。故事中主要对比了人们理想的数据，和真实的分布数据。横轴从左到右代表加拿大从最穷到最富的人群（每10%的人为一组），纵轴表示了他们的财富的数值。在结局时视频重新将两个图放在了一起回顾了发现。",
+                "explanation": "Recall the data fact that is indispensable to the conclusion of the story.",
+                "case": "The story tells about the distribution of wealth in Canada. The story mainly compares the people's ideal data with the real distribution data. At the end of the video, the two pictures were put together again to review the findings.",
                 "imageGroup": [
                     {
                         "imagePosition": "recap-1",
-                        "imageExplanation": "（a）（发展-高潮）理想的加拿大财富分布"
+                        "imageExplanation": "(a) (rising-climax) the ideal distribution"
                     },
                     {
                         "imagePosition": "recap-2",
-                        "imageExplanation": "（b）（发展-高潮）真实的加拿大财富分布"
+                        "imageExplanation": "(b) (rising-climax) the real distribution"
                     },
                     {
                         "imagePosition": "recap-3",
-                        "imageExplanation": "（c）（结局）回顾图表"
+                        "imageExplanation": "(c) (resolution) recap the charts"
                     }
                 ]
             }
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "cname": "预测未来",
+        "cname": "Predicting the future",
         "name": "resolution-pattern2",
         "explanation": "在结局预测未来可能的情况，用于展示对未来的期望，或者揭露存在的隐患，引发观众对将来的思考。",
         "dataFlows": [
@@ -90,7 +90,7 @@
         ]
     },
     {
-        "cname": "呼应开头",
+        "cname": "Echoing the beginning",
         "name": "resolution-pattern3",
         "explanation": "在结局回应开头，可以是强调开头的主题、回答开头探讨的问题、和进一步升华开头的主题。其对应的数据内容取决于开头的数据内容。",
         "dataFlows": [],
@@ -107,7 +107,7 @@
         ]
     },
     {
-        "cname": "呼吁行动",
+        "cname": "Next steps",
         "name": "resolution-pattern4",
         "explanation": "对数据中发现的问题，呼吁大家更多地注意问题，鼓励行动。该项不再是描述数据的内容，而是根据创作者对于问题的理解，和相关的知识提出可能的行动。",
         "dataFlows": [],

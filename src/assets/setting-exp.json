@@ -1,48 +1,48 @@
 [
     {
-        "cname": "介绍可视化",
+        "cname": "Introducing visualizations",
         "name": "setting-pattern1",
-        "explanation": "在使用的可视化较为复杂（例如：气泡图）时，介绍可视化能让观众熟悉可视化，使观众更容易理解之后要讲的发现。",
+        "explanation": "Introducing visualizations explains the encodings of the visualizations to guide the audiences on how to read the charts in the story. ",
         "dataFlows": [
             {
-                "cname": "介绍数据变量",
+                "cname": "Introducing data attributes",
                 "name": "setting-pattern1-data-flow1",
-                "explanation": "如果故事使用了较为复杂的可视化，解释可视化中每个设计元素（坐标轴、颜色、大小等）所展示的数据变量是什么，能让观众熟悉和理解可视化，也就能更好地理解数据故事。",
-                "case": "该视频使用了气泡图来讲故事，涉及到了5个数据变量，在视频的开头演讲者分别解释了气泡图中的横轴、纵轴、气泡、气泡颜色、和气泡大小的含义。",
+                "explanation": "If the story uses uncommon visualizations, explain how data variables are encoded in each design element (axis, color, size, etc.) in the visualization, so that the audience can be familiar with and understand the visualization, and can also better understand the data story .",
+                "case": "This video uses a bubble chart to tell a story, involving 5 data variables. At the beginning of the video, the speaker explained the meaning of the horizontal axis, vertical axis, bubbles, bubble color, and bubble size in the chart.",
                 "imageGroup": [
                     {
                         "imagePosition": "data-attributes-1",
-                        "imageExplanation": "（a）纵轴展示人均寿命"
+                        "imageExplanation": "(a) y-axis represents life expectancy"
                     },
                     {
                         "imagePosition": "data-attributes-2",
-                        "imageExplanation": "（b）横轴展示人均收入"
+                        "imageExplanation": "(b) x-axis represents income per person"
                     },
                     {
                         "imagePosition": "data-attributes-3",
-                        "imageExplanation": "（c）每个气泡是一个国家，颜色代表了地区"
+                        "imageExplanation": "(c) each bubble is a country"
                     },
                     {
                         "imagePosition": "data-attributes-4",
-                        "imageExplanation": "（d）气泡大小代表了人口数量"
+                        "imageExplanation": "(d) the bubble size represents population"
                     }
                 ]
             }
         ],
         "visuals": [
             {
-                "cname": "可视化生成动画",
+                "cname": "Building up chart components gradually",
                 "name": "setting-pattern1-visual1",
-                "how": "让可视化的各个部分（横、纵坐标轴、数据点）逐个出现并逐个解释它们的意思。",
-                "why": "逐个解释能引导观众的注意力，并减少观众每次要理解的信息量",
-                "case": "该视频使用了气泡图来讲故事，涉及到了5个数据变量，在视频的开头演讲者分别解释了气泡图中的横轴，纵轴，气泡，气泡颜色，和气泡大小的含义。",
+                "how": "Present each part of the visualization progressively in the scene when the corresponding design is explained",
+                "why": "It reduces the cognitive burden of the audiences and facilitates their comprehension of the visualizationin.",
+                "case": "This video uses a bubble chart to tell a story, involving 5 data variables. At the beginning of the video, the speaker explained the meaning of the horizontal axis, vertical axis, bubbles, bubble color, and bubble size in the bubble chart.",
                 "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
                 "gifPosition": "build-up"
             }
         ]
     },
     {
-        "cname": "数据“钩子” ",
+        "cname": "Statistic hook",
         "name": "setting-pattern2",
         "explanation": "在故事开头使用有趣的、出人意料的数据事实来引起人们注意。",
         "dataFlows": [
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "cname": "预告",
+        "cname": "Preview",
         "name": "setting-pattern3",
         "explanation": "预告要讲述的故事内容，但不揭露细节，以增加读者的好奇心。",
         "dataFlows": [
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "cname": "提问",
+        "cname": "Raising a question",
         "name": "setting-pattern4",
         "explanation": "在故事开头抛出问题，引起观众的思考。",
         "dataFlows": [
@@ -145,7 +145,7 @@
         ]
     },
     {
-        "cname": "介绍主题背景",
+        "cname": "Introducing backgrounds",
         "name": "setting-pattern5",
         "explanation": "介绍要探讨的主题是在什么背景下产生的，背景可以分为历史背景、地理背景、人物背景和事件背景。",
         "dataFlows": [
@@ -175,7 +175,7 @@
         ]
     },
     {
-        "cname": "从具体人物出发",
+        "cname": "Presenting concrete characters",
         "name": "setting-pattern6",
         "explanation": "以一个具体人物的故事作为要探讨的主题的切入点。",
         "dataFlows": [
