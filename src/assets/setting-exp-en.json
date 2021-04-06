@@ -1,0 +1,220 @@
+[
+    {
+        "cname": "Introducing visualizations",
+        "name": "setting-pattern1",
+        "explanation": "Explain the encodings of the visualizations to guide the audiences on how to read the charts in the story. ",
+        "dataFlows": [
+            {
+                "cname": "Introducing data attributes",
+                "name": "setting-pattern1-data-flow1",
+                "explanation": "Explain how data variables are encoded in each design element (axis, color, size, etc.), so that the audience can be familiar with and understand the visualization, and can also better understand the data story.",
+                "case": "This video uses a bubble chart to tell a story that involves 5 data variables. At the beginning of the video, the speaker explained the meaning of the horizontal axis, vertical axis, bubbles, bubble color, and bubble size in the chart.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "data-attributes-1",
+                        "imageExplanation": "(a) y-axis represents life expectancy"
+                    },
+                    {
+                        "imagePosition": "data-attributes-2",
+                        "imageExplanation": "(b) x-axis represents income per person"
+                    },
+                    {
+                        "imagePosition": "data-attributes-3",
+                        "imageExplanation": "(c) each bubble is a country"
+                    },
+                    {
+                        "imagePosition": "data-attributes-4",
+                        "imageExplanation": "(d) the bubble's size represents population"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Building up chart components gradually",
+                "name": "setting-pattern1-visual1",
+                "how": "Present each part of the visualization progressively in the scene when the corresponding design is explained",
+                "why": "It reduces the cognitive burden of the audiences and facilitates their comprehension of the visualizationin.",
+                "case": "This video uses a bubble chart to tell a story, involving 5 data variables. At the beginning of the video, the speaker explained the meaning of the horizontal axis, vertical axis, each bubble, and bubble's color and size.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "build-up"
+            }
+        ]
+    },
+    {
+        "cname": "Statistic hook",
+        "name": "setting-pattern2",
+        "explanation": "Statistic hook is a storytelling technique that presents some interesting numbers or visualizations at the beginning of the story to grab attention.",
+        "dataFlows": [
+            {
+                "cname": "Abnormal or significant data facts",
+                "name": "setting-pattern2-data-flow1",
+                "explanation": "Abnormal or significant data facts normally are unexpected findings or summary statistics (e.g., sum, maximum values, etc.).",
+                "case": "The story starts by showing how large the U.S. tax is to attract the audience’ attention to the story topic - the tax evasion in the U.S..",
+                "imageGroup": [
+                    {
+                        "imagePosition": "hook-1",
+                        "imageExplanation": "(a) The U.S. tax revenue is nearly 3 trillion"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Counting number",
+                "name": "setting-pattern2-visual1",
+                "how": "Show an animation of number counting up to the final result.",
+                "why": "It creates suspense and anticipation.",
+                "case": "The story starts by showing how large the U.S. tax is to attract the audience’ attention to the story topic - the tax evasion in the U.S..",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "counting"
+            },
+            {
+                "cname": "Basic charts with visual cues",
+                "name": "setting-pattern2-visual2",
+                "how": "Use basic charts (e.g., line, bar, etc.) and highlight the findings with visual cues (e.g., glow, arrow, etc.)",
+                "why": "The audience are familiar with basic charts and the visual cues make the findings salient.",
+                "case": "This video discusses the voter turnout rate of the U.S. population. In the beginning, it showes the finding that the U.S. voter turnout rate is the lowest among all developed countries (the red bar).",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "simple-chart"
+            }
+        ]
+    },
+    {
+        "cname": "Preview",
+        "name": "setting-pattern3",
+        "explanation": "Preview gives an advance hint of what is to come later in the story",
+        "dataFlows": [
+            {
+                "cname": "Showing changes over time",
+                "name": "setting-pattern3-data-flow1",
+                "explanation": "Preview is commonly observed in stories that show changes in time-series data. These stories usually start by describing the general change of data from the starting point to the end. Then, they go back to the starting point and describe the details chronologically.",
+                "case": "The video starts by showing how the ranking of China's international exports changes from 1978 to 2017, and then tells the details, important turning points and events.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "foreshadowing",
+                        "imageExplanation": "(a) The China's international exports ranking from 1978 to 2017"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Fastforwarding to the final state",
+                "name": "setting-pattern3-visual1",
+                "how": "Goes through visualizations from the beginning of time to the end quickly with animation",
+                "why": "Let the audience quickly sense the changes in the data to evoke curiosity.",
+                "case": "The video describes the changes of the population of the world's cities, and in the beginning it shows the changes through an animated bar chart.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "fastforward2"
+            }
+        ]
+    },
+    {
+        "cname": "Raising a question",
+        "name": "setting-pattern4",
+        "explanation": "Poses a question directly to the audience to evoke their curiosity and sets suspense for the subsequent exploration of the answer",
+        "dataFlows": [
+            {
+                "cname": "Questions surrounding the climax fact",
+                "name": "setting-pattern4-data-flow1",
+                "explanation": "The answer to the question is normally revealed at the Climax stage.",
+                "case": "The video discusses how the Indian government's handle the cases of sexual assault on women. It engages the audience by raising a question - are women in India any safer?",
+                "imageGroup": [
+                    {
+                        "imagePosition": "question-1",
+                        "imageExplanation": "(a) (Setting) Are women in India any safer?"
+                    },
+                    {
+                        "imagePosition": "question-2",
+                        "imageExplanation": "(b) (Climax) The proportion of raped cases that resulted in convictions remains at a low level (10%) from 2008 to 2016"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Big text",
+                "name": "setting-pattern4-visual1",
+                "how": "Emphasize the question on full screen.",
+                "why": "Full screen text emphasizes the importance.",
+                "case": "The video discusses how the Indian government's handle the cases of sexual assault on women. It engages the audience by raising a question - Are women in India any safer?",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "big-text"
+            }
+        ]
+    },
+    {
+        "cname": "Introducing backgrounds",
+        "name": "setting-pattern5",
+        "explanation": "Provides contextual information of the story, such as the motivation or the general topic of the story.",
+        "dataFlows": [
+            {
+                "cname": "Context of data",
+                "name": "setting-pattern5-data-flow1",
+                "explanation": "The contextual information often relates to how the data was collected, the data subject, and what tasks the data analysis is for.",
+                "case": "The video begins with introducing the high risk of violence India women faces and how it became an emotive issue in the 2019 Indian election, which indicates the historical context of the story.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "context-1",
+                        "imageExplanation": "(a) For women, living in India can be very dangerous"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Related icons/cartoons/archive footage",
+                "name": "setting-pattern5-visual1",
+                "how": "Introduce background information with related icons, animations or archival footage(news clips, photos, etc.).",
+                "why": "It better convey the abstract information",
+                "case": "The video discusses the problem of women safety in India. When introducing the topic, it presents a cartoon showing a crying woman and some news video clips of the feminist movement in India.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "background"
+            }
+        ]
+    },
+    {
+        "cname": "Presenting concrete characters",
+        "name": "setting-pattern6",
+        "explanation": "Presenting concrete characters begins the story with a personal view, such as telling an anecdote of someone. It enhances the engagement of the audience as they can relate better to people than to abstract data",
+        "dataFlows": [
+            {
+                "cname": "Individuals behind the data",
+                "name": "setting-pattern6-data-flow1",
+                "explanation": "Present some data facts related to data about some persons.",
+                "case": "The video starts with the fact that Nathan Adrian won gold in the 100-meter freestyle in the 2012 Olympics, and then tells the data of the Olympic records in men’s 100-meter freestyle.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "character-1",
+                        "imageExplanation": "(a) Nathan Adrian won gold in the 100-meter freestyle in the 2012 Olympics"
+                    },
+                    {
+                        "imagePosition": "character-2",
+                        "imageExplanation": "（b）The data of all champions in one chart shows how the world record changes"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Cut-out people",
+                "name": "setting-pattern6-visual1",
+                "how": "Present the cut-out images of the characters.",
+                "why": "It provides the audience with concrete images of the characters.",
+                "case": "The video starts with the fact that Nathan Adrian won gold in the 100-meter freestyle in the 2012 Olympics, and then tells the data of the Olympic records in men’s 100-meter freestyle.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "cut-out-people"
+            },
+            {
+                "cname": "Cartoons",
+                "name": "setting-pattern6-visual2",
+                "how": "Use cartoons to present personal stories.",
+                "why": "It provides the audience with concrete images of the characters.",
+                "case": "The story tells the debt issue of the United States. It begins with Trump’s upcoming appointment and describes the debt problem that Trump will face.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "cartoon-people"
+            }
+        ]
+    }
+]

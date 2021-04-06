@@ -1,0 +1,321 @@
+[    {
+    "cname": "Showing the decisive moment",
+    "name": "rising-pattern3",
+    "explanation": "Showing the decisive moment triggers the climax by bringing the audience to an important and special moment. Such a moment can either be a semantically meaningful time (e.g., the 2008 financial crisis) or a point when things change qualitatively (e.g., when China became the top one export country in 2009).",
+    "dataFlows": [{
+        "cname": "Showing changes over time",
+        "name": "rising-pattern3-data-flow1",
+        "explanation": "For data that changes over time, show important turning points.",
+        "case": "The video shows the changes in the number of births per woman (horizontal axis) and child mortality (vertical axis) in various countries over time. In 1963, the white box on the left is the developed country, and the right is the developing country. The data shows a state of polarization. With the development of the economy and the improvement of medical conditions, developing countries have gradually gathered to developed countries. By 2013, most developing countries and developed countries have gathered together, and the previously divided world no longer exists.",
+        "imageGroup": [{
+                "imagePosition": "moment-1",
+                "imageExplanation": "(a) Developed and developing countries in the world were polarized in 1963 (Rising)"
+            },
+            {
+                "imagePosition": "moment-2",
+                "imageExplanation": "(b) The number of births per woman and child mortality in developing countries gradually decreased (Rising)"
+            },
+            {
+                "imagePosition": "moment-3",
+                "imageExplanation": "(c) In 2013, most developing countries and developed countries gathered together, and the world is no longer fragmented (Climax)"
+            }
+        ]
+    }],
+    "visuals": [
+        {
+            "cname": "Multi-take cut",
+            "name": "rising-pattern3-visual3",
+            "how": "Quickly switch the lens angle to see the visualization.",
+            "why": "Enhance the tightness and excitement of the rhythm.",
+            "case": "The world ranking of the number of outbound tourists from China rose from 12th in 1997 to 1st in 2012 and continues to maintain.",
+            "gifPosition": "multi-take-cut"
+        },
+        {
+            "cname": "First person view",
+            "name": "rising-pattern3-visual2",
+            "how": "It uses immersive visualization and lets the audiences feel that they are riding a roller coaster in the trend line",
+            "why": "The audience is immersed in the atmosphere of tension and excitement.",
+            "case": "The video shows the changes in China's stock market over the past 28 years, and it has experienced several sharp rises and falls.",
+            "gifPosition": "first-person"
+        },
+        {
+            "cname": "Speed up",
+            "name": "rising-pattern3-visual1",
+            "how": "Increases the animation speed of the short period right before the climax",
+            "why": "Enhance the tightness and excitement of the rhythm.",
+            "case": "The video shows how the number of births per woman (horizontal axis) and child mortality (vertical axis) in various countries changes over time. At the beginning, developed countries were in the left box , and developing countries were in the right box. As time goes by, developing countries gradually moved closer to developed countries, reflecting the progress of developing countries.",
+            "gifPosition": "speed-up"
+        },
+        {
+            "cname": "Close-up tracking",
+            "name": "rising-pattern3-visual4",
+            "how": "Horizontally moves the camera to gradually reveal the data at next time point.",
+            "why": "It increases the audience anticipation of the upcoming event and the feel of excitement when the climax is revealed.",
+            "case": "The China's ranking in export increased to the top three in 2004 from 26th in 1978, and increased to 1st in 2013.",
+            "gifPosition": "tracking"
+        },
+        {
+            "cname": "Speed lines",
+            "name": "rising-pattern3-visual5",
+            "how": "Adds radial, twinkling lines when the decisive moment is coming",
+            "why": "It is originally used in Manga art to enhance the intensity of action moments",
+            "case": "The video shows the changes of the number of confirmed Covid-19 cases in countries over time. Among them, the data of the United States was low at the beginning but soon increased and became the topest.",
+            "gifPosition": "speed-lines"
+        }
+    ]
+   },
+    {
+        "cname": "Showing contrast",
+        "name": "rising-pattern1",
+        "explanation": "Showing contrast presents data facts that have substantial difference, thus creating a plot turn and leading to the climax.",
+        "dataFlows": [{
+                "cname": "Contrasting facts in different subspaces",
+                "name": "rising-pattern1-data-flow1",
+                "explanation": "Contrasting findings in different subspaces shows the contrast of the measured values across different categories",
+                "case": "The video is about the danger of alcohol. In the United States, Marijuana is listed as a first-level controlled drug. The same types include Heroin and Ecstasy. Data show that in 2010, the death caused by overdose of marijuana and heroin was 0 and 3000, respectively. Alcohol, which is not used as any controlled product, causes an average of 8,800 deaths per year. Comparing alcohol with other addictive substances, the contrast that using alcohol may cause more harm than drugs emphasizes the harm of alcohol.",
+                "imageGroup": [{
+                        "imagePosition": "subspace-contrast-1",
+                        "imageExplanation": "(a) In 2010, the number of deaths due to overdose of marijuana was 0. (Rising)"
+                    },
+                    {
+                        "imagePosition": "subspace-contrast-2",
+                        "imageExplanation": "(b) In 2010, the number of deaths due to heroine was 3000. (Rising)"
+                    },
+                    {
+                        "imagePosition": "subspace-contrast-3",
+                        "imageExplanation": "(c) The average number of deaths due to alcohol each year is 88,000. (Climax)"
+                    }
+                ]
+            },
+            {
+                "cname": "Contrasting facts in different measures",
+                "name": "rising-pattern1-data-flow2",
+                "explanation": "Contrasting findings in different measures shows the contrast of different measured values for the same categories in the data",
+                "case": "The video tells about the Indian government's handling of cases of sexual assault on Indian women in recent years. From 2008 to 2016, the number of reported cases of female sexual assault in India showed an upward trend, reflecting the increase in public awareness of the law; however, the filing rate of reported sexual assault cases has remained at a low level from 2008 to 2016 ( 4%), reflecting that India’s handling of female sexual assault cases has not received enough attention.",
+                "imageGroup": [{
+                        "imagePosition": "measure-contrast-1",
+                        "imageExplanation": "(a) From 2008 to 2016, the reported cases of female sexual assault in India has shown an upward trend (Rising)"
+                    },
+                    {
+                        "imagePosition": "measure-contrast-2",
+                        "imageExplanation": "(b) From 2008 to 2016, the rate of filing cases of female sexual assault in India has remained low (Climax)"
+                    }
+                ]
+            },
+            {
+                "cname": "Contrasting facts in different granularity",
+                "name": "rising-pattern1-data-flow3",
+                "explanation": "Contrasting findings in different granularity compares data in different levels of a hierarchical dataset such as the average income of the world and that of a country.",
+                "case": "The video discusses tax issues in the United States. From the perspective of personal income tax alone, the tax that the poor should pay as a percentage of income is much less than that of the rich; after adding real estate tax and corporate tax, the tax paid by the poor still accounts for a smaller proportion of personal income; however, the tax paid by the poor accounts for a smaller proportion of personal income. After the taxes paid by insurance and endowment insurance, and the consumption tax on the consumption of daily necessities, the proportion of personal income paid by the poor has increased significantly. The story reflects the phenomenon that the tax system seems fair but it is not by considering the sum of a certain category and the sum of all categories of taxes.",
+                "imageGroup": [{
+                        "imagePosition": "gran-contrast-1",
+                        "imageExplanation": "(a) The proportion of personal income tax to income, (from left to right are the poorest to the richest.) (Rising)"
+                    },
+                    {
+                        "imagePosition": "gran-contrast-2",
+                        "imageExplanation": "(b) Personal income tax, plus real estate tax and corporate tax as a percentage of income (Rising)"
+                    },
+                    {
+                        "imagePosition": "gran-contrast-3",
+                        "imageExplanation": "(c) Consider all taxes to be paid as a percentage of personal expenditures (Climax)"
+                    }
+                ]
+            },
+            {
+                "cname": "From presumption to the truth",
+                "name": "rising-pattern1-data-flow4",
+                "explanation": "From presumption to the truth presents data that contrary to what people believed",
+                "case": "The video tells about the distribution of wealth in the United States. The first figure shows the guessed distribution data (from a survey), and the second figure shows the real distribution data. The horizontal axis represents the poorest to the richest people in the United States from left to right (every 10% of the population is a group), and the vertical axis represents the value of their wealth. The true distribution of the data shows that the wealth gap between the rich and the poor is far more exaggerated than people's guesses.",
+                "imageGroup": [{
+                        "imagePosition": "exp-contrast-1",
+                        "imageExplanation": "(a) People's guessed the distribution of wealth in the United States (Rising)"
+                    },
+                    {
+                        "imagePosition": "exp-contrast-2",
+                        "imageExplanation": "(b) Actual wealth distribution (Climax)"
+                    }
+                ]
+            }
+        ],
+        "visuals": [{
+                "cname": "Juxtaposing difference",
+                "name": "rising-pattern1-visual1",
+                "how": "Place the visualizations to be compared side by side.",
+                "why": "Make the difference distinct through side-by-side comparison.",
+                "case": "This chart shows the distribution of wealth in Ireland, from bottom to top, the presented is the ideal distribution, the distribution people guessed, and the actual distribution.",
+                "gifPosition": "juxtaposing"
+            },
+            {
+                "cname": "Vis-to-vis morphing",
+                "name": "rising-pattern1-visual2",
+                "how": "Use a smooth animation to transform a visualization into a visualization to be compared.",
+                "why": "The transfomration process vividly shows the differences between visualizations and makes the animation smooth.",
+                "case": "This chart compares the estimated pension liability (1Trillion) and the true data (4Trillion) of the U.S. government.",
+                "gifPosition": "morphing"
+            },
+            {
+                "cname": "Shaking the scene",
+                "name": "rising-pattern1-visual3",
+                "how": "When the visualization for contrast appears, shake the scene and the visualization in the frame.",
+                "why": "It provide an added impact on the intensity of the climax and thus heighten the audience’s sense of surprise and excitement",
+                "case": "The video shows the relationship between the public support of a legal proposal and the actual approval rate. The black line is the ideal situation (support rate = pass rate), and the swaying purple line is the actual situation, that is, regardless of the support rate, the pass rate of legal proposals remains unchanged.",
+                "gifPosition": "shaking"
+            },
+            {
+                "cname": "Digital distortion",
+                "name": "rising-pattern1-visual4",
+                "how": "Add digital noises to the scene to mimic a crash of the filming devices.",
+                "why": "It overturns viewers' expectations",
+                "case": "The video discusses the violence against women in India. The first chart shows an increasing trend of rape cases cases, however, the proportion of raped cases resulted in convictions had no significant change (chart 2).",
+                "gifPosition": "distortion"
+            },
+            {
+                "cname": "Zoom burst",
+                "name": "rising-pattern1-visual5",
+                "how": "Makes the surrounding areas of the climax scene blurred while keeping the center sharp.",
+                "why": "It makes the scene bursts toward the audience and make the audiences surprised.",
+                "case": "The video shows the wealth distribution in Canada. The first chart shows the distribution that people guessed, and the second chart shows the real distribution.",
+                "gifPosition": "blur"
+            }
+        ]
+    },
+    {
+        "cname": "Showing cumulative significance",
+        "name": "rising-pattern2",
+        "explanation": "Showing accumulative significance increases the intensity of the story by showing similar data facts repetitively.",
+        "dataFlows": [{
+                "cname": "Adding up similar facts in different subspaces",
+                "name": "rising-pattern2-data-flow1",
+                "explanation": "Adding up similar facts in different subspaces presents similar data facts from the measured values across different categories",
+                "case": "The video discusses the issue of racial segregation in the United States. The figure shows the geographical distribution of African Americans in several cities. The darker the color, the more African Americans. No matter which city they are in, African Americans are concentrated in a small part of the area, reflecting the racial segregation problem of the United States.",
+                "imageGroup": [{
+                        "imagePosition": "sub-acc-1",
+                        "imageExplanation": "(a) Distribution of African Americans in Washington (Rising)"
+                    },
+                    {
+                        "imagePosition": "sub-acc-2",
+                        "imageExplanation": "(b) Distribution of African Americans in Detroit (Rising)"
+                    },
+                    {
+                        "imagePosition": "sub-acc-3",
+                        "imageExplanation": "(c) Distribution of African Americans in Philadelphia (Climax)"
+                    }
+                ]
+            },
+            {
+                "cname": "Adding up similar facts in different measures",
+                "name": "rising-pattern2-data-flow2",
+                "explanation": "Adding up similar facts in different measures present similar data facts from the measured values across different categories.",
+                "case": "The video discusses the ceiling effect faced by British women. It lists the proportion of British men and women among senior managers, politicians, university professors, and members of the top 100 corporate board of directors (4 measures).",
+                "imageGroup": [{
+                        "imagePosition": "mea-acc-1",
+                        "imageExplanation": "(a) 64% of senior managers are men and 36% are women (Rising)"
+                    },
+                    {
+                        "imagePosition": "mea-acc-2",
+                        "imageExplanation": "(b)  77% of politicians are men and 23% are women (Rising)"
+                    },
+                    {
+                        "imagePosition": "mea-acc-3",
+                        "imageExplanation": "(c) 79% of university professors are men and 21% are women (Rising)"
+                    },
+                    {
+                        "imagePosition": "mea-acc-4",
+                        "imageExplanation": "(d) Among the members of the board of directors of the top 100 companies, 83% are men and 17% are women (Climax)"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Staging of elements",
+                "name": "rising-pattern2-visual4",
+                "how": "Let the visual component (i.e., part of, or the whole of a visualization) representing each data fact progressively appear in the scene.",
+                "why": "Increase the audience's excitement progressively by showing cumulative elements in a static shot.",
+                "case": "This story is about the tax evasion problem in U.S.. The chart shows the amount of lost tax. The x-axis represents the proportion of tax, and the y-axis represents the corresponding amount of money.",
+                "gifPosition": "ele-staging"
+            },
+            {
+                "cname": "Staging of visual cues",
+                "name": "rising-pattern2-visual5",
+                "how": "Employ visual cues (e.g., glow, arrow, etc.) to highlight each visual component as the story progresses.",
+                "why": "Increase the audience's excitement progressively by showing cumulative elements in a static shot.",
+                "case": "Each curve from top to bottom represents the change of electricity demand withint a day in each year in U.S.. Every year, the demand during the daytime period drops significantly.",
+                "gifPosition": "cue-staging"
+            },
+            {
+                "cname": "Repetitive short shots",
+                "name": "rising-pattern2-visual3",
+                "how": "Swiftly switche between visualizations with the same visual encoding to present a series of similar facts.",
+                "why": "Create an intensive rhythm of the story.",
+                "case": "The chart shows the geographical distribution of African Americans during the day and night in several cities. The darker the color on the map, the more African Americans there. African Americans work in various places during the day, and concentrated in a small area when they return home at night.",
+                "gifPosition": "short-shots"
+            },
+            {
+                "cname": "Increasing animation intensity",
+                "name": "rising-pattern2-visual1",
+                "how": "Augments the exaggeration of the animation as the story progresses.",
+                "why": "Progressively increate the intensity of the story.",
+                "case": "The video discusses the debt problem of the United States. Each block represents the amount of debt brought by each president.",
+                "gifPosition": "exaggerating"
+            },
+            {
+                "cname": "Close-up to overview",
+                "name": "rising-pattern2-visual2",
+                "how": "Use the close-up shot at each visual component and show an overview of all components.",
+                "why": "The audience's anticipation increases as each close-up view shows up and the final overview brings a moment of awe.",
+                "case": "The video shows the wage gap between men and women in U.S.. The data shows that in the 4 out of top 5 professions in U.S. have more men than women.",
+                "gifPosition": "close-up-to-overview2"
+            }
+        ]
+    },
+    {
+        "cname": "Showing ranking",
+        "name": "rising-pattern4",
+        "explanation": "Showing ranking is a method to sort things according to a criteria and reveals them one by one to build the suspense.",
+        "dataFlows": [{
+            "cname": "Counting down values",
+            "name": "rising-pattern4-data-flow1",
+            "explanation": "Counting down values reveals the values of categories from a data dimension from low rank to high rank.",
+            "case": "The video shows the ranking of the average annual tea consumption of various countries. Each 'tea pillar' represents the tea consumption of a country, displayed one by one from low to high",
+            "imageGroup": [{
+                    "imagePosition": "rank-1",
+                    "imageExplanation": "(a) Uganda, ranked 13th, with 62,000 tons of tea consumption (Rising)"
+                },
+                {
+                    "imagePosition": "rank-2",
+                    "imageExplanation": "(b) Sri Lanka, ranking 4, tea consumption is 300,000 tons (Rising)"
+                },
+                {
+                    "imagePosition": "rank-3",
+                    "imageExplanation": "(c) China, ranking 1, tea consumption 2.61 million tons (Climax)"
+                }
+            ]
+        }],
+        "visuals": [{
+                "cname": "Showing depth with camera",
+                "name": "rising-pattern4-visual1",
+                "how": "Apply camera movement techniques such as crane, tilt, and pan to shot each item.",
+                "why": "Enhance the audience's perceptions of the size of each item to evoke a sense of amazement",
+                "case": "The amount of tea consumption in each country.",
+                "gifPosition": "camera"
+            },
+            {
+                "cname": "Close-up tracking",
+                "name": "rising-pattern4-visual2",
+                "how": "Horizontally moves the camera to show items lined up in a rank chart.",
+                "why": "Enahnce the audiences' anticipation of the next item.",
+                "case": "The list of existing species, ranked by number.",
+                "gifPosition": "tracking-rank"
+            },
+            {
+                "cname": "Rescaling",
+                "name": "rising-pattern4-visual3",
+                "how": "gradually brings the items to the audience's sight and changes the scale of the canvas to fit the size of the new coming item.",
+                "why": "Changes in canvas size can also show the difference between object sizes.",
+                "case": "The list of U.S. warships, ranked by size.",
+                "gifPosition": "canvas-zoom"
+            }
+        ]
+    }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "cname": "Recap",
+        "name": "resolution-pattern1",
+        "explanation": "Recap helps renew the audiences' memory on the main messages in the story.",
+        "dataFlows": [
+            {
+                "cname": "Facts to be emphasized",
+                "name": "resolution-pattern1-data-flow1",
+                "explanation": "Recall the data fact that is indispensable to the conclusion of the story.",
+                "case": "The story tells about the distribution of wealth in Canada. The story mainly compares the people's ideal data with the real distribution data. At the end of the video, the two pictures were put together again to review the findings.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "recap-1",
+                        "imageExplanation": "(a) the ideal distribution (Rising-Climax)"
+                    },
+                    {
+                        "imagePosition": "recap-2",
+                        "imageExplanation": "(b) the real distribution (Rising-Climax)"
+                    },
+                    {
+                        "imagePosition": "recap-3",
+                        "imageExplanation": "(c) recap the charts (Rising-Climax)"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Juxtaposing displayed visualizations",
+                "name": "resolution-pattern1-visual1",
+                "how": "Places key visualizations side-by-side on the screen again.",
+                "why": "Help the audience quickly review the story.",
+                "case": "The video shows the wealth distribution in Canada. The first chart shows the distribution that people guessed, and the second chart shows the real distribution. In the end, the video pus the two charts side by side again.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "resolution-jux"
+            },
+            {
+                "cname": "Replaying the visualization animation",
+                "name": "resolution-pattern1-visual2",
+                "how": "Provides a fast review of major changes of data over time in the story.",
+                "why": "Help the audience quickly review the story.",
+                "case": "The video tells how the income per person and life expectancy of each country changes over time. A quick replay of the animation in the end shows the overall upward trend.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "replay"
+            },
+            {
+                "cname": "Showing a summary chart",
+                "name": "resolution-pattern1-visual3",
+                "how": "Introduces a new chart to summarize the findings scattered in the story",
+                "why": "Show a clear summary.",
+                "case": "uses an animated bar chart to show how the global population of different continents changes over time in the Rising-Climax stage and uses an area chart to display the overall trend of changes in the Resolution stage.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "summary"
+            }
+        ]
+    },
+    {
+        "cname": "Predicting the future",
+        "name": "resolution-pattern2",
+        "explanation": "Storytellers apply this narrative approach to provide a glimpse of the future trends of the data.",
+        "dataFlows": [
+            {
+                "cname": "From present to future",
+                "name": "resolution-pattern2-data-flow1",
+                "explanation": "Includes data facts of the predicted data.",
+                "case": "The video shows the changes of the world's population. At the end, it predicts that the population will reach 100 billion in 2100 to reflect the problem the population explosion.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "predict-1",
+                        "imageExplanation": "(a) In 2011, the population is 70 billion (Climax)"
+                    },
+                    {
+                        "imagePosition": "predict-2",
+                        "imageExplanation": "(b) It is predicted that in 2100, the population would be 10 billion (Resolution)"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Adding new data points to the chart",
+                "name": "resolution-pattern2-visual1",
+                "how": "Show what the chart looks like after adding predicted data",
+                "why": "Allow the audience to investigate the future data in the context of historical data. ",
+                "case": "The video shows the changes of the world's population. At the end, it predicts that the population will reach 100 billion in 2100 to reflect the problem the population explosion.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "predict"
+            }
+        ]
+    },
+    {
+        "cname": "Echoing the beginning",
+        "name": "resolution-pattern3",
+        "explanation": "Revisits story contents presented at the beginning, which is a common narrative technique used in literary stories",
+        "dataFlows": [            {
+            "cname": "Facts in the beginning",
+            "name": "resolution-pattern3-data-flow1",
+            "explanation": "Recall the data fact in the beginning.",
+            "case": "The video shows the changes of the world's population. Both the beginning and the end shows the trend of the world population from 1000 to 2011.",
+            "imageGroup": [
+                {
+                    "imagePosition": "echo-1",
+                    "imageExplanation": "(a) The world population (Setting)"
+                },
+                {
+                    "imagePosition": "echo-2",
+                    "imageExplanation": "(b) The world population (Resolution)"
+                }
+            ]
+        }],
+        "visuals": [
+            {
+                "cname": "Reusing the elements in the beginning",
+                "name": "resolution-pattern3-visual1",
+                "how": "The visual design is usually kept similar to what is displayed at the beginning.",
+                "why": "The audience can easily make connections between the beginning and the end.",
+                "case": "The video discusses the violence against women in India. Both the ending and the beginning use a figure of a crying woman to echo each other and emphasize the theme.",
+                "url": "reuse",
+                "gifPosition": "reuse"
+            }
+        ]
+    },
+    {
+        "cname": "Next steps",
+        "name": "resolution-pattern4",
+        "explanation": "This narrative pattern provides solutions to the discussed problem and encourages the audience to take an action.",
+        "dataFlows": [
+            {
+                "cname": "External knowledge",
+                "name": "resolution-pattern4-data-flow1",
+                "explanation": "It requires the storytellers to use the external domain knowledge beyond data to provide recommendations or opinions. The data flow can vary from case to case.",
+                "case": "The video tells about the network security issues enterprises face. In the end of the video, it lists different solutions and how many enterprises are already using these solutions.",
+                "imageGroup": [
+                    {
+                        "imagePosition": "sol-1",
+                        "imageExplanation": "(a) solution1: block websites (Rising-Climax)"
+                    },
+                    {
+                        "imagePosition": "sol-2",
+                        "imageExplanation": "(b) solution2: monitor usage (Rising-Climax)"
+                    }
+                ]
+            }
+        ],
+        "visuals": [
+            {
+                "cname": "Listing the solutions",
+                "name": "resolution-pattern4-visual1",
+                "how": "List all viable solutions to the problem.",
+                "why": "Demonstrate the solutions clearly and encourage the audience to take actions.",
+                "case": "The video tells about the network security issues enterprises face. In the end of the video, it lists different solutions and how many enterprises are already using these solutions.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "list-solution"
+            },
+            {
+                "cname": "Presenting the slogan",
+                "name": "resolution-pattern4-visual2",
+                "how": "Presenting the slogan to call to action.",
+                "why": "Demonstrate the solutions clearly and encourage the audience to take actions.",
+                "case": "The video tells the British government's losses in the Afghanistan war. It uses the anti-war slogan to call on everyone to participate in anti-war actions.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "slogan"
+            },
+            {
+                "cname": "Presenting the ideal chart",
+                "name": "resolution-pattern4-visual3",
+                "how": "Present the ideal data in the chart.",
+                "why": "Demonstrate the target data to the audience for stating the goal.",
+                "case": "The video tells about the slow growth rate of GDP in U.S.. The white line is the current data, and the red dashed line is the ideal data.",
+                "url": "https://www.youtube.com/watch?v=jbkSRLYSojo&index=11&list=FLX8DHS3fWcMiZ6LLeKYk6eQ",
+                "gifPosition": "ideal"
+            }
+        ]
+    }
+]
