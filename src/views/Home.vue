@@ -348,7 +348,7 @@ export default {
    border-left: 2.5px solid grey;
  }
  .v-list-group__header{
-   border-radius: 0 5px 5px 0;
+   border-radius: 5px 5px 5px 5px;
  }
  .navigation{
    padding-left: 0.7rem;

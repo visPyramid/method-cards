@@ -49,7 +49,7 @@ export default {
   border-radius: 0px !important;
 }
 .inactivePage {
-  border-bottom: 3px solid rgba(0,0,0,);
+  border-bottom: 3px solid rgba(0,0,0,0);
   border-radius: 0px !important;
 }
 </style>
